@@ -1,0 +1,2 @@
+# Proyecto_Scrum_Angie_Juan_Simon_Diego
+Proyecto Scrum Gym
