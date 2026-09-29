@@ -115,3 +115,76 @@ def registrar_matricula(datos):
 
     print("\nMatrícula registrada correctamente.")
     return True
+
+
+def listar_matriculas(datos):
+
+    print("\n========== MATRÍCULAS ==========")
+
+    if not datos["matriculas"]:
+
+        print("No existen matrículas.")
+        return
+
+    for matricula in datos["matriculas"]:
+
+        cliente = buscar_cliente(datos,matricula["cliente_id"]
+        )
+
+        servicio = buscar_servicio(datos,matricula["servicio_id"])
+        instructor = buscar_instructor(datos,matricula["instructor_id"])
+
+        print("-" * 55)
+
+        if cliente:
+            print(f"Cliente: {cliente['nombres']} {cliente['apellidos']}")
+
+        if servicio:
+            print(f"Servicio: {servicio['nombre']}")
+
+        if instructor:
+            print(f"Instructor: {instructor['nombre']}")
+
+        print(f"Fecha de inicio: {matricula['fecha_inicio']}" )
+        print(f"Duración: {matricula['duracion']} meses")
+        print(f"Estado: {matricula['estado']}")
+
+
+def cancelar_matricula(datos):
+
+    identificacion = pedir_numero("Identificación del cliente: ")
+    cliente = buscar_cliente(datos,identificacion)
+
+    if cliente is None:
+
+        print("Cliente no encontrado.")
+        return False
+
+    activas = []
+
+    for matricula in datos["matriculas"]:
+
+        if (matricula["cliente_id"] == identificacion and matricula["estado"] == "Activa"):
+
+            activas.append(matricula)
+
+    if not activas:
+
+        print("El cliente no tiene matrículas activas.")
+        return False
+
+    print("\n========== MATRÍCULAS ACTIVAS ==========")
+
+    for numero, matricula in enumerate(activas,1):
+
+        servicio = buscar_servicio(datos,matricula["servicio_id"])
+
+        nombre_servicio = (servicio["nombre"] if servicio else "Desconocido")
+
+        print(f"{numero}. {nombre_servicio}")
+
+    opcion = pedir_entero("Seleccione la matrícula a cancelar: ",1,len(activas))
+    activas[opcion - 1]["estado"] = "Cancelada"
+    print("Matrícula cancelada.")
+
+    return True
