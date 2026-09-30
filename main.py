@@ -120,3 +120,125 @@ def menu_instructor(datos):
             break
         else:
             print("Opción inválida.")
+            
+
+# =========================================================
+# MENÚ CLIENTE
+# =========================================================
+
+def menu_cliente(datos):
+
+    while True:
+
+        print("\n")
+        print("=" * 60)
+        print("              FORCE TECH")
+        print("             MENÚ CLIENTE")
+        print("=" * 60)
+
+        print("1. Consultar perfil\n2. Consultar progreso\n3. Consultar asistencia\n0. Volver")
+        opcion = input("\nSeleccione una opción: ").strip()
+
+        if opcion == "1":
+            consultar_perfil(datos)
+
+        elif opcion == "2":
+            consultar_progreso(datos)
+
+        elif opcion == "3":
+            consultar_asistencia(datos)
+
+        elif opcion == "0":
+            break
+
+        else:
+            print("Opción inválida.")
+
+
+# =========================================================
+# REPORTES
+# =========================================================
+
+def menu_reportes(datos):
+
+    while True:
+
+        print("\n")
+        print("=" * 60)
+        print("                REPORTES")
+        print("=" * 60)
+
+        print("1. Listar clientes inscritos\n2. Servicios y capacidad\n3. Instructores activos\n4. Clientes con riesgo alto\n5. Clientes con bajo rendimiento\n6. Progreso de clientes\n7. Reporte de asistencia")
+        print("0. Volver")
+        opcion = input("\nSeleccione una opción: ").strip()
+
+        if opcion == "1":
+            reporte_clientes_inscritos(datos)
+
+        elif opcion == "2":
+            reporte_servicios(datos)
+
+        elif opcion == "3":
+            reporte_instructores_activos(datos)
+
+        elif opcion == "4":
+            reporte_riesgo_alto(datos)
+
+        elif opcion == "5":
+            reporte_bajo_rendimiento(datos)
+
+        elif opcion == "6":
+            reporte_progreso(datos)
+
+        elif opcion == "7":
+            reporte_asistencia(datos)
+
+        elif opcion == "0":
+            break
+
+        else:
+            print("Opción inválida.")
+
+
+# =========================================================
+# PROGRAMA PRINCIPAL
+# =========================================================
+
+def main():
+
+    datos = cargar_datos()
+    inicializar_servicios(datos)
+    guardar_datos(datos)
+
+    while True:
+
+        print("\n")
+        print("=" * 60)
+        print("              GIMNASIO FORCE TECH")
+        print("          SISTEMA DE GESTIÓN")
+        print("=" * 60)
+
+        print("1. Administrador\n2. Instructor\n3. Cliente\n0. Salir")
+
+        opcion = input("\nSeleccione su rol: ").strip()
+
+        if opcion == "1":
+            menu_administrador(datos)
+
+        elif opcion == "2":
+            menu_instructor(datos)
+
+        elif opcion == "3":
+            menu_cliente(datos)
+
+        elif opcion == "0":
+            guardar_datos(datos)
+            print("\n✅ Información guardada.")
+            print("Gracias por utilizar ForceTech.")
+            break
+
+        else:
+            print("Rol inválido. Intente nuevamente.")
+
+if __name__ == "__main__":
+    main()
