@@ -82,3 +82,41 @@ def menu_administrador(datos):
 
         else:
             print("Opción inválida.")
+            
+
+# =========================================================
+# MENÚ INSTRUCTOR
+# =========================================================
+
+def menu_instructor(datos):
+
+    while True:
+
+        print("\n")
+        print("=" * 60)
+        print("              FORCE TECH")
+        print("           MENÚ INSTRUCTOR")
+        print("=" * 60)
+
+        print("1. Registrar asistencia\n2. Registrar evaluación de progreso\n3. Listar clientes\n4. Consultar progreso\n0. Volver")
+
+        opcion = input("\nSeleccione una opción: ").strip()
+
+        if opcion == "1":
+            resultado = registrar_asistencia(datos)
+            guardar_si_corresponde(datos,resultado)
+
+        elif opcion == "2":
+            resultado = registrar_progreso(datos)
+            guardar_si_corresponde(datos,resultado)
+
+        elif opcion == "3":
+            listar_clientes(datos)
+
+        elif opcion == "4":
+            consultar_progreso(datos)
+
+        elif opcion == "0":
+            break
+        else:
+            print("Opción inválida.")
