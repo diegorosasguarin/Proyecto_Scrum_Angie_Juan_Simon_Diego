@@ -146,6 +146,10 @@ Durante el desarrollo del proyecto se utilizó Notion para la planificación, se
 
 A continuación se presentan las capturas tomadas del documento Word con la documentación oficial y evidencias del cumplimiento de las ceremonias SCRUM (Sprint Planning, Daily Stand-up, Sprint Review y Sprint Retrospective), así como el panel de gestión Kanban y la asignación de roles:
 
+🔗 **Acceder al Documento SCRUM:**
+https://drive.google.com/file/d/1GX9Oz-N3z_2K8d-W3P7YjOweO_mrTscJ/view?usp=sharing
+
+
 <p align="center"><img src="imagenes/Portada1.png" width="500"></p>
 <p align="center"><img src="imagenes/Portada2.png" width="500"></p>
 <p align="center"><img src="imagenes/Captura1.png" width="500"></p>
