@@ -170,3 +170,4 @@ A continuación se presentan las capturas tomadas del documento Word con la docu
 ![](imagenes/Captura27.png)
 ![](imagenes/Captura28.png)
 
+[](https://app.notion.com/p/Proyecto-ForceTech-SCRUM-3e99022ea78880f48d3af8ba97e68d98)
