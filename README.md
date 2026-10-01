@@ -134,40 +134,45 @@ El sistema soporta tres roles principales con menús interactivos:
   3. *Restricción:* El cliente no puede modificar ni alterar los registros desde su menú.
 
 ---
+## 📋 Tablero SCRUM
+ 
+Durante el desarrollo del proyecto se utilizó Notion para la planificación, seguimiento y control de las actividades del Sprint.
+
+ 
+🔗 **Acceder al tablero SCRUM:**
+ https://app.notion.com/p/Proyecto-ForceTech-SCRUM-3e99022ea78880f48d3af8ba97e68d98
 
 ## 📸 Documentación y Evidencias de la Metodología SCRUM
 
 A continuación se presentan las capturas tomadas del documento Word con la documentación oficial y evidencias del cumplimiento de las ceremonias SCRUM (Sprint Planning, Daily Stand-up, Sprint Review y Sprint Retrospective), así como el panel de gestión Kanban y la asignación de roles:
 
-![](imagenes/Portada1.png)
-![](imagenes/Portada2.png)
-![](imagenes/Captura1.png)
-![](imagenes/Captura2.png)
-![](imagenes/Captura3.png)
-![](imagenes/Captura4.png)
-![](imagenes/Captura5.png)
-![](imagenes/Captura6.png)
-![](imagenes/Captura7.png)
-![](imagenes/Captura8.png)
-![](imagenes/Captura9.png)
-![](imagenes/Captura10.png)
-![](imagenes/Captura11.png)
-![](imagenes/Captura12.png)
-![](imagenes/Captura13.png)
-![](imagenes/Captura14.png)
-![](imagenes/Captura15.png)
-![](imagenes/Captura16.png)
-![](imagenes/Captura17.png)
-![](imagenes/Captura18.png)
-![](imagenes/Captura19.png)
-![](imagenes/Captura20.png)
-![](imagenes/Captura21.png)
-![](imagenes/Captura22.png)
-![](imagenes/Captura23.png)
-![](imagenes/Captura24.png)
-![](imagenes/Captura25.png)
-![](imagenes/Captura26.png)
-![](imagenes/Captura27.png)
-![](imagenes/Captura28.png)
+<p align="center"><img src="imagenes/Portada1.png" width="500"></p>
+<p align="center"><img src="imagenes/Portada2.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura1.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura2.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura3.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura4.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura5.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura7.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura8.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura9.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura10.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura11.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura12.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura13.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura15.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura16.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura17.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura18.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura19.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura20.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura21.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura22.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura23.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura24.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura25.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura26.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura27.png" width="500"></p>
+<p align="center"><img src="imagenes/Captura28.png" width="500"></p>
 
-[](https://app.notion.com/p/Proyecto-ForceTech-SCRUM-3e99022ea78880f48d3af8ba97e68d98)
+
